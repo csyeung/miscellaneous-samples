@@ -1,0 +1,1054 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>6bbd85de-5275-4ec3-99d5-a54a1f803ba4</UniqueIdentifier>
+    </Filter>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Assets\languages">
+      <UniqueIdentifier>{96611421-2d28-4f07-bf9a-4dfd8ef6d04d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\en-US">
+      <UniqueIdentifier>{e1e5a65b-cb2f-4acb-95e9-beead9d2ee8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\en-US\DifficultyMenu">
+      <UniqueIdentifier>{3993faa5-ac14-41de-977e-9ed69296fb81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\en-US\DifficultyMenu\buttons">
+      <UniqueIdentifier>{26b21a89-b650-45c8-ac52-726640c3ff6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\en-US\InGame">
+      <UniqueIdentifier>{5fd8682f-8b33-4034-b4a6-6f62195f5195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\en-US\MainMenu">
+      <UniqueIdentifier>{20bac620-a610-433f-87cd-55c5730186e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\en-US\MainMenu\buttons">
+      <UniqueIdentifier>{b086a786-2846-4d24-8724-cba0256f50ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\en-US\MainMenu\snap">
+      <UniqueIdentifier>{2e0bbd0e-5455-4e6f-a873-89fcda69f0ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\en-US\ModeMenu">
+      <UniqueIdentifier>{9b8e060f-5e3d-4a14-9e73-9517fd612028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\en-US\ModeMenu\buttons">
+      <UniqueIdentifier>{36e71432-0582-4513-94b0-a691911fbfd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Puzzles">
+      <UniqueIdentifier>{239d058f-eca5-4df1-9dcb-f73e0642d55f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\System">
+      <UniqueIdentifier>{547af4d9-bf70-486a-9be1-092ed2dd53de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\UI">
+      <UniqueIdentifier>{1616730a-63cd-4f6f-9162-7afcc843e123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\UI\InGame">
+      <UniqueIdentifier>{29299200-ff3f-4abb-9c26-d021ba62c378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\InGame">
+      <UniqueIdentifier>{5b22d87a-35ea-4793-9f1e-f7413478f652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\UI\Backgrounds">
+      <UniqueIdentifier>{284b1057-1e66-429d-b685-3dea6de3b006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\UI\Backgrounds\snap">
+      <UniqueIdentifier>{46d70933-fdde-46b0-bd14-ff72e35729f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\UI\buttons">
+      <UniqueIdentifier>{032ba2e1-a72f-4dc9-9aa0-60ebe873344c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework">
+      <UniqueIdentifier>{7163aa4f-35f9-49fc-bfc9-c4669894de32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\Camera">
+      <UniqueIdentifier>{085cbad4-9280-4a56-a8d5-2a74eac8def7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\Utility">
+      <UniqueIdentifier>{05e3d7e1-a86f-495a-a0af-024c9e14bca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\Sprites">
+      <UniqueIdentifier>{93bcfbb2-3b2d-4e0a-83f5-315edd568e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\Timers">
+      <UniqueIdentifier>{ff55c36f-5475-41a2-8e4b-b3ab49d52cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\Shaders">
+      <UniqueIdentifier>{7a2333dd-8903-437e-8b9a-33ca13d82c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\Shaders\PostCorona">
+      <UniqueIdentifier>{34ff853b-e3e7-40ec-9e0c-4dae62119c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\Shaders\PostCorona\include">
+      <UniqueIdentifier>{42a77dc6-2b76-40df-a880-505b08b0a6cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\UI">
+      <UniqueIdentifier>{3795d8bb-257a-4f63-8686-9f70f7cc3da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\UI\SummaryDialog">
+      <UniqueIdentifier>{ebc47539-a760-4291-968a-ae9e3414d633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\UI\SummaryDialog\buttons">
+      <UniqueIdentifier>{2c77810c-d0b8-42bd-aa77-ca911d0b98be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\en-US\SummaryDialog">
+      <UniqueIdentifier>{f6f5bcbd-e940-409e-8647-ca4a7608a12e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\en-US\SummaryDialog\buttons">
+      <UniqueIdentifier>{d840836e-d175-4b92-be29-553fd92374e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Puzzles\easy">
+      <UniqueIdentifier>{2a9c457e-b0f5-4032-b5fd-477a37bcead4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Puzzles\medium">
+      <UniqueIdentifier>{1334dcbc-ba44-4b22-b60d-cb59feb35125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Puzzles\hard">
+      <UniqueIdentifier>{f60f2eaa-9d0d-47f0-b6d3-b8c71273d85b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\zh-Hant-TW">
+      <UniqueIdentifier>{ab11fa4a-8efe-4d53-bde2-1d57a0c9c0fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\zh-Hant-TW\DifficultyMenu">
+      <UniqueIdentifier>{5f6f9f46-a744-4d49-a776-0766363b94fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\zh-Hant-TW\DifficultyMenu\buttons">
+      <UniqueIdentifier>{c4b7d985-7087-4a37-abd9-f536ff2b953d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\zh-Hant-TW\InGame">
+      <UniqueIdentifier>{c693030d-c969-4b15-85b0-22f18a61ef2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\zh-Hant-TW\MainMenu">
+      <UniqueIdentifier>{7ffc3eb5-478c-4a81-a715-4900fcb5a057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\zh-Hant-TW\MainMenu\buttons">
+      <UniqueIdentifier>{93605c15-f85a-41a2-a519-5c16375ca076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\zh-Hant-TW\MainMenu\snap">
+      <UniqueIdentifier>{4e0726e6-e6f6-4b3b-ad5f-e75f4ac0595e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\zh-Hant-TW\ModeMenu">
+      <UniqueIdentifier>{eddb69e2-032b-416f-9ec8-a228062cdb24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons">
+      <UniqueIdentifier>{ca02458b-342d-46aa-9dc3-c10e67814da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\zh-Hant-TW\SummaryDialog">
+      <UniqueIdentifier>{bc71d84f-37cf-41bb-8b32-5e2bbfd6588d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\languages\zh-Hant-TW\SummaryDialog\buttons">
+      <UniqueIdentifier>{9a0dd158-264a-43ab-b324-8c2d3070b7b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\Resources">
+      <UniqueIdentifier>{7d4da682-3aaa-4e97-89b6-7d47c2997286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\Effects">
+      <UniqueIdentifier>{f61d088b-962c-4b96-ab3d-2e5ef38cc5bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\Shaders\BumpyGlossyMetal">
+      <UniqueIdentifier>{e104f422-9a55-4a55-9cb4-c3358258cac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\Shaders\BumpyGlossyMetal\include">
+      <UniqueIdentifier>{def97b74-0c63-4129-8ac3-eb60a8beefdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\Math">
+      <UniqueIdentifier>{aefcb009-9d8d-4db0-aebf-00071ffe7342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\Shaders\GaussianBlur">
+      <UniqueIdentifier>{a5d55189-a17a-466d-8ac3-f55c059a7df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\Shaders\include">
+      <UniqueIdentifier>{631c7e1e-5c64-4d04-b0fc-a10509ab5d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\Shaders\GaussianBlur\include">
+      <UniqueIdentifier>{314a689d-6f89-4cc5-a6c7-b0eb00d1413b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\ParticleSystem">
+      <UniqueIdentifier>{77b6c7a2-1786-4be1-91be-043a3b7f81a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\InGame\ParticleSystem">
+      <UniqueIdentifier>{94156cf1-334e-49a9-ad90-c7f73ea9da9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{6c6a0290-608d-4b04-ad8d-6a055b1ea6ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI">
+      <UniqueIdentifier>{b644725c-226b-4b0d-909f-4b95fee8f7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\GameState">
+      <UniqueIdentifier>{e9bdec49-3250-4ae8-a59f-34f1b79ba171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\States">
+      <UniqueIdentifier>{be0c9620-afef-4698-b2a8-d748567f915d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\UI\Transition">
+      <UniqueIdentifier>{4b8a15ab-72c6-4bc4-b39e-e7d9fb2d3e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\Text">
+      <UniqueIdentifier>{c1801155-4a7a-45bf-9a67-69a5bd2533b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\Globals">
+      <UniqueIdentifier>{45472265-41a5-49de-97d6-df11f751244f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\GameFramework\Shaders\ColorQuadPS.hlsl">
+      <Filter>GameFramework\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\QuadVS.hlsl">
+      <Filter>GameFramework\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\RedPS.hlsl">
+      <Filter>GameFramework\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\SpriteInstancedVS.hlsl">
+      <Filter>GameFramework\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\SpritePS.hlsl">
+      <Filter>GameFramework\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\SpriteTunnelPS.hlsl">
+      <Filter>GameFramework\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\SpriteVS.hlsl">
+      <Filter>GameFramework\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\PostCorona\PS_Glow.hlsl">
+      <Filter>GameFramework\Shaders\PostCorona</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\PostCorona\VS_QuadHorizontal9Tap.hlsl">
+      <Filter>GameFramework\Shaders\PostCorona</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\PostCorona\VS_QuadTransform.hlsl">
+      <Filter>GameFramework\Shaders\PostCorona</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\PostCorona\VS_QuadVertical9Tap.hlsl">
+      <Filter>GameFramework\Shaders\PostCorona</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\BumpyGlossyMetal\VS.hlsl">
+      <Filter>GameFramework\Shaders\BumpyGlossyMetal</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\BumpyGlossyMetal\PS.hlsl">
+      <Filter>GameFramework\Shaders\BumpyGlossyMetal</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\PostCorona\PS_Flat.hlsl">
+      <Filter>GameFramework\Shaders\PostCorona</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\QuadPS.hlsl">
+      <Filter>GameFramework\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\PS_Horizontal9Tap.hlsl">
+      <Filter>GameFramework\Shaders\GaussianBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\VS_Horizontal9Tap.hlsl">
+      <Filter>GameFramework\Shaders\GaussianBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\PS_Vertical9Tap.hlsl">
+      <Filter>GameFramework\Shaders\GaussianBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\VS_Vertical9Tap.hlsl">
+      <Filter>GameFramework\Shaders\GaussianBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\VS_CopyFilter.hlsl">
+      <Filter>GameFramework\Shaders\GaussianBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\PS_CopyFilter.hlsl">
+      <Filter>GameFramework\Shaders\GaussianBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\PS_Horizontal9TapNoiseGlow.hlsl">
+      <Filter>GameFramework\Shaders\GaussianBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\PS_Vertical9TapNoiseGlow.hlsl">
+      <Filter>GameFramework\Shaders\GaussianBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\PS_Horizontal9TapGlow.hlsl">
+      <Filter>GameFramework\Shaders\GaussianBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\PS_Vertical9TapGlow.hlsl">
+      <Filter>GameFramework\Shaders\GaussianBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\BumpyGlossyMetal\PS_FlatTextured.hlsl">
+      <Filter>GameFramework\Shaders\BumpyGlossyMetal</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\VS_PositionColor.hlsl">
+      <Filter>GameFramework\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\PS_PositionColor.hlsl">
+      <Filter>GameFramework\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\..\GameFramework\Camera\Camera.cpp">
+      <Filter>GameFramework\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Camera\FirstPersonCamera.cpp">
+      <Filter>GameFramework\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Camera\OrthographicCamera.cpp">
+      <Filter>GameFramework\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Camera\PerspectiveCamera.cpp">
+      <Filter>GameFramework\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Sprites\SpriteRenderer.cpp">
+      <Filter>GameFramework\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Timers\Timer.cpp">
+      <Filter>GameFramework\Timers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Utility\BasicLoader.cpp">
+      <Filter>GameFramework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Utility\BasicReaderWriter.cpp">
+      <Filter>GameFramework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Utility\BasicShapes.cpp">
+      <Filter>GameFramework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Utility\DDSTextureLoader.cpp">
+      <Filter>GameFramework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Utility\Utility.cpp">
+      <Filter>GameFramework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\DirectXBase.cpp">
+      <Filter>GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="DifficultyMenu.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeMenu.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\UI\Background.cpp">
+      <Filter>GameFramework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\UI\MenuScreen.cpp">
+      <Filter>GameFramework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\UI\Button.cpp">
+      <Filter>GameFramework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Utility\Easing.cpp">
+      <Filter>GameFramework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="SummaryDialog.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Resources\ResourceFactory.cpp">
+      <Filter>GameFramework\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\UI\UISceneGraphElement.cpp">
+      <Filter>GameFramework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\UI\UIImage.cpp">
+      <Filter>GameFramework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Effects\Effect.cpp">
+      <Filter>GameFramework\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Effects\BumpyGlossyMetalEffect.cpp">
+      <Filter>GameFramework\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Resources\VertexShaderResource.cpp">
+      <Filter>GameFramework\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Resources\PixelShaderResource.cpp">
+      <Filter>GameFramework\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Resources\Texture2DResource.cpp">
+      <Filter>GameFramework\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Effects\SamplerFactory.cpp">
+      <Filter>GameFramework\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Math\Geometry.cpp">
+      <Filter>GameFramework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Effects\PostCoronaEffect.cpp">
+      <Filter>GameFramework\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Resources\RenderTargetResource.cpp">
+      <Filter>GameFramework\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Resources\DepthStencilResource.cpp">
+      <Filter>GameFramework\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Resources\Texture3DResource.cpp">
+      <Filter>GameFramework\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Resources\TextureResource.cpp">
+      <Filter>GameFramework\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Effects\GaussianBlurEffect.cpp">
+      <Filter>GameFramework\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Effects\FullScreenQuad.cpp">
+      <Filter>GameFramework\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Effects\PostHaloEffect.cpp">
+      <Filter>GameFramework\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Effects\PostEffect.cpp">
+      <Filter>GameFramework\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\ParticleSystem\Particle.cpp">
+      <Filter>GameFramework\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\ParticleSystem\Particle2D.cpp">
+      <Filter>GameFramework\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\ParticleSystem\ParticleSystem2D.cpp">
+      <Filter>GameFramework\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="PuzzlePiece.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleOverlay.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\GameState\GameState.cpp">
+      <Filter>GameFramework\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\GameState\GameStateManager.cpp">
+      <Filter>GameFramework\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="PicturePanic.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="States\BackgroundImageState.cpp">
+      <Filter>Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\FadeTransitionState.cpp">
+      <Filter>Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\LoadingState.cpp">
+      <Filter>Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\MenuState.cpp">
+      <Filter>Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\RaceGameState.cpp">
+      <Filter>Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\CountdownState.cpp">
+      <Filter>Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\GameTimerState.cpp">
+      <Filter>Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include=".\States\RaceSummaryState.cpp">
+      <Filter>Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\PuzzleFlipTransitionState.cpp">
+      <Filter>Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\GameState\FramerateState.cpp">
+      <Filter>GameFramework\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Text\Overlay2D.cpp">
+      <Filter>GameFramework\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFramework\Globals\GameGlobals.cpp">
+      <Filter>GameFramework\Globals</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="..\..\GameFramework\Camera\Camera.h">
+      <Filter>GameFramework\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Camera\FirstPersonCamera.h">
+      <Filter>GameFramework\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Camera\OrthographicCamera.h">
+      <Filter>GameFramework\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Camera\PerspectiveCamera.h">
+      <Filter>GameFramework\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Shaders\PostCorona\include\BlurConstants.h">
+      <Filter>GameFramework\Shaders\PostCorona\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Shaders\PostCorona\include\ConstantBuffers.h">
+      <Filter>GameFramework\Shaders\PostCorona\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Shaders\PostCorona\include\PSCommon.h">
+      <Filter>GameFramework\Shaders\PostCorona\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Shaders\PostCorona\include\VSCommon.h">
+      <Filter>GameFramework\Shaders\PostCorona\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Sprites\SpriteRenderer.h">
+      <Filter>GameFramework\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Timers\Timer.h">
+      <Filter>GameFramework\Timers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Utility\BasicLoader.h">
+      <Filter>GameFramework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Utility\BasicMath.h">
+      <Filter>GameFramework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Utility\BasicReaderWriter.h">
+      <Filter>GameFramework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Utility\BasicShapes.h">
+      <Filter>GameFramework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Utility\DDSTextureLoader.h">
+      <Filter>GameFramework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Utility\Exceptions.h">
+      <Filter>GameFramework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Utility\Utility.h">
+      <Filter>GameFramework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\DirectXBase.h">
+      <Filter>GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="DifficultyMenu.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeMenu.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\UI\Background.h">
+      <Filter>GameFramework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\UI\MenuScreen.h">
+      <Filter>GameFramework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\UI\PointerState.h">
+      <Filter>GameFramework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\UI\Button.h">
+      <Filter>GameFramework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Utility\Easing.h">
+      <Filter>GameFramework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="SummaryDialog.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Resources\ResourceFactory.h">
+      <Filter>GameFramework\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\UI\UISceneGraphElement.h">
+      <Filter>GameFramework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\UI\UIImage.h">
+      <Filter>GameFramework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Effects\Effect.h">
+      <Filter>GameFramework\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Effects\BumpyGlossyMetalEffect.h">
+      <Filter>GameFramework\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Resources\VertexShaderResource.h">
+      <Filter>GameFramework\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Resources\PixelShaderResource.h">
+      <Filter>GameFramework\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Resources\Texture2DResource.h">
+      <Filter>GameFramework\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Effects\SamplerFactory.h">
+      <Filter>GameFramework\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Math\Geometry.h">
+      <Filter>GameFramework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Effects\PostCoronaEffect.h">
+      <Filter>GameFramework\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Resources\RenderTargetResource.h">
+      <Filter>GameFramework\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Resources\Resource.h">
+      <Filter>GameFramework\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Resources\DepthStencilResource.h">
+      <Filter>GameFramework\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Resources\Texture3DResource.h">
+      <Filter>GameFramework\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Resources\TextureResource.h">
+      <Filter>GameFramework\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Effects\GaussianBlurEffect.h">
+      <Filter>GameFramework\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Effects\FullScreenQuad.h">
+      <Filter>GameFramework\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Effects\PostHaloEffect.h">
+      <Filter>GameFramework\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Effects\PostEffect.h">
+      <Filter>GameFramework\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\ParticleSystem\Particle.h">
+      <Filter>GameFramework\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\ParticleSystem\Particle2D.h">
+      <Filter>GameFramework\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\ParticleSystem\ParticleSystem2D.h">
+      <Filter>GameFramework\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PuzzlePiece.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleOverlay.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Resources\PreLoadItem.h">
+      <Filter>GameFramework\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\GameState\GameState.h">
+      <Filter>GameFramework\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\GameState\GameStateManager.h">
+      <Filter>GameFramework\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\GameState\RenderableGameState.h">
+      <Filter>GameFramework\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="PicturePanic.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="States\BackgroundImageState.h">
+      <Filter>Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\FadeTransitionState.h">
+      <Filter>Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\LoadingState.h">
+      <Filter>Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\MenuState.h">
+      <Filter>Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\RaceGameState.h">
+      <Filter>Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\CountdownState.h">
+      <Filter>Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\GameTimerState.h">
+      <Filter>Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include=".\States\RaceSummaryState.h">
+      <Filter>Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\PuzzleFlipTransitionState.h">
+      <Filter>Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\GameState\FramerateState.h">
+      <Filter>GameFramework\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Text\Overlay2D.h">
+      <Filter>GameFramework\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFramework\Globals\GameGlobals.h">
+      <Filter>GameFramework\Globals</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PicturePanic_TemporaryKey.pfx" />
+    <None Include="..\..\GameFramework\Shaders\BumpyGlossyMetal\include\ConstantBuffers.hlsli">
+      <Filter>GameFramework\Shaders\BumpyGlossyMetal\include</Filter>
+    </None>
+    <None Include="..\..\GameFramework\Shaders\include\TexturedQuad.hlsli">
+      <Filter>GameFramework\Shaders\include</Filter>
+    </None>
+    <None Include="..\..\GameFramework\Shaders\GaussianBlur\include\BlurWeights.hlsli">
+      <Filter>GameFramework\Shaders\GaussianBlur\include</Filter>
+    </None>
+    <None Include="..\..\GameFramework\Shaders\GaussianBlur\include\GaussianBlur.hlsli">
+      <Filter>GameFramework\Shaders\GaussianBlur\include</Filter>
+    </None>
+    <None Include="..\..\GameFramework\Shaders\BumpyGlossyMetal\include\BumpyGlossyMetal.hlsli">
+      <Filter>GameFramework\Shaders\BumpyGlossyMetal\include</Filter>
+    </None>
+    <None Include="..\..\GameFramework\Shaders\GaussianBlur\include\ConstantBuffers.hlsli">
+      <Filter>GameFramework\Shaders\GaussianBlur\include</Filter>
+    </None>
+    <None Include="..\..\GameFramework\Shaders\include\PositionColor.hlsli">
+      <Filter>GameFramework\Shaders\include</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\languages\en-US\DifficultyMenu\buttons\easy.png">
+      <Filter>Assets\languages\en-US\DifficultyMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\DifficultyMenu\buttons\hard.png">
+      <Filter>Assets\languages\en-US\DifficultyMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\DifficultyMenu\buttons\medium.png">
+      <Filter>Assets\languages\en-US\DifficultyMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\InGame\go.png">
+      <Filter>Assets\languages\en-US\InGame</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\MainMenu\logo.png">
+      <Filter>Assets\languages\en-US\MainMenu</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\MainMenu\buttons\options.png">
+      <Filter>Assets\languages\en-US\MainMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\MainMenu\buttons\options_highlight.png">
+      <Filter>Assets\languages\en-US\MainMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\MainMenu\buttons\play.png">
+      <Filter>Assets\languages\en-US\MainMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\MainMenu\buttons\play_highlight.png">
+      <Filter>Assets\languages\en-US\MainMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\MainMenu\snap\logo.png">
+      <Filter>Assets\languages\en-US\MainMenu\snap</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\daily_default.png">
+      <Filter>Assets\languages\en-US\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\daily_disabled.png">
+      <Filter>Assets\languages\en-US\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\headtohead_default.png">
+      <Filter>Assets\languages\en-US\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\headtohead_disabled.png">
+      <Filter>Assets\languages\en-US\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\race_default.png">
+      <Filter>Assets\languages\en-US\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\race_disabled.png">
+      <Filter>Assets\languages\en-US\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\scoreAttack_default.png">
+      <Filter>Assets\languages\en-US\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\scoreAttack_disabled.png">
+      <Filter>Assets\languages\en-US\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\System\Badge.png">
+      <Filter>Assets\System</Filter>
+    </Image>
+    <Image Include="Assets\System\Logo.png">
+      <Filter>Assets\System</Filter>
+    </Image>
+    <Image Include="Assets\System\SmallLogo.png">
+      <Filter>Assets\System</Filter>
+    </Image>
+    <Image Include="Assets\System\SplashScreen.png">
+      <Filter>Assets\System</Filter>
+    </Image>
+    <Image Include="Assets\System\WideLogo.png">
+      <Filter>Assets\System</Filter>
+    </Image>
+    <Image Include="Assets\UI\InGame\1.png">
+      <Filter>Assets\UI\InGame</Filter>
+    </Image>
+    <Image Include="Assets\UI\InGame\2.png">
+      <Filter>Assets\UI\InGame</Filter>
+    </Image>
+    <Image Include="Assets\UI\InGame\3.png">
+      <Filter>Assets\UI\InGame</Filter>
+    </Image>
+    <Image Include="Assets\UI\Backgrounds\bg.jpg">
+      <Filter>Assets\UI\Backgrounds</Filter>
+    </Image>
+    <Image Include="Assets\UI\Backgrounds\Snap\bg_snap.jpg">
+      <Filter>Assets\UI\Backgrounds\snap</Filter>
+    </Image>
+    <Image Include="Assets\UI\Buttons\arrow_left.png">
+      <Filter>Assets\UI\buttons</Filter>
+    </Image>
+    <Image Include="Assets\UI\Buttons\arrow_left_disabled.png">
+      <Filter>Assets\UI\buttons</Filter>
+    </Image>
+    <Image Include="Assets\UI\Buttons\arrow_left_highlight.png">
+      <Filter>Assets\UI\buttons</Filter>
+    </Image>
+    <Image Include="Assets\UI\Buttons\arrow_right.png">
+      <Filter>Assets\UI\buttons</Filter>
+    </Image>
+    <Image Include="Assets\UI\Buttons\arrow_right_disabled.png">
+      <Filter>Assets\UI\buttons</Filter>
+    </Image>
+    <Image Include="Assets\UI\Buttons\arrow_right_highlight.png">
+      <Filter>Assets\UI\buttons</Filter>
+    </Image>
+    <Image Include="Assets\UI\Buttons\back.png">
+      <Filter>Assets\UI\buttons</Filter>
+    </Image>
+    <Image Include="Assets\UI\Buttons\back_highlight.png">
+      <Filter>Assets\UI\buttons</Filter>
+    </Image>
+    <Image Include="Assets\UI\SummaryDialog\buttons\windows_share.png">
+      <Filter>Assets\UI\SummaryDialog\buttons</Filter>
+    </Image>
+    <Image Include="Assets\UI\SummaryDialog\buttons\facebook.png">
+      <Filter>Assets\UI\SummaryDialog\buttons</Filter>
+    </Image>
+    <Image Include="Assets\UI\SummaryDialog\buttons\twitter.png">
+      <Filter>Assets\UI\SummaryDialog\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\SummaryDialog\timeup.png">
+      <Filter>Assets\languages\en-US\SummaryDialog</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\SummaryDialog\puzzlecomplete.png">
+      <Filter>Assets\languages\en-US\SummaryDialog</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\SummaryDialog\buttons\nextgame.png">
+      <Filter>Assets\languages\en-US\SummaryDialog\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\SummaryDialog\buttons\retry.png">
+      <Filter>Assets\languages\en-US\SummaryDialog\buttons</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Medium\1.jpg">
+      <Filter>Assets\Puzzles\medium</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Medium\2.jpg">
+      <Filter>Assets\Puzzles\medium</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Medium\3.jpg">
+      <Filter>Assets\Puzzles\medium</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Medium\4.jpg">
+      <Filter>Assets\Puzzles\medium</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Medium\5.jpg">
+      <Filter>Assets\Puzzles\medium</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Medium\6.jpg">
+      <Filter>Assets\Puzzles\medium</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Medium\7.jpg">
+      <Filter>Assets\Puzzles\medium</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Medium\8.jpg">
+      <Filter>Assets\Puzzles\medium</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Medium\9.jpg">
+      <Filter>Assets\Puzzles\medium</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Hard\1.jpg">
+      <Filter>Assets\Puzzles\hard</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Hard\2.jpg">
+      <Filter>Assets\Puzzles\hard</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Hard\3.jpg">
+      <Filter>Assets\Puzzles\hard</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Hard\4.jpg">
+      <Filter>Assets\Puzzles\hard</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Hard\5.jpg">
+      <Filter>Assets\Puzzles\hard</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Hard\6.jpg">
+      <Filter>Assets\Puzzles\hard</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Hard\7.jpg">
+      <Filter>Assets\Puzzles\hard</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Easy\1.jpg">
+      <Filter>Assets\Puzzles\easy</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Easy\2.jpg">
+      <Filter>Assets\Puzzles\easy</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Easy\3.jpg">
+      <Filter>Assets\Puzzles\easy</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Easy\4.jpg">
+      <Filter>Assets\Puzzles\easy</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Easy\5.jpg">
+      <Filter>Assets\Puzzles\easy</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Easy\6.jpg">
+      <Filter>Assets\Puzzles\easy</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Easy\7.jpg">
+      <Filter>Assets\Puzzles\easy</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\DifficultyMenu\buttons\easy.png">
+      <Filter>Assets\languages\zh-Hant-TW\DifficultyMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\DifficultyMenu\buttons\hard.png">
+      <Filter>Assets\languages\zh-Hant-TW\DifficultyMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\DifficultyMenu\buttons\medium.png">
+      <Filter>Assets\languages\zh-Hant-TW\DifficultyMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\InGame\go.png">
+      <Filter>Assets\languages\zh-Hant-TW\InGame</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\MainMenu\buttons\options.png">
+      <Filter>Assets\languages\zh-Hant-TW\MainMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\MainMenu\buttons\options_highlight.png">
+      <Filter>Assets\languages\zh-Hant-TW\MainMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\MainMenu\buttons\play.png">
+      <Filter>Assets\languages\zh-Hant-TW\MainMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\MainMenu\buttons\play_highlight.png">
+      <Filter>Assets\languages\zh-Hant-TW\MainMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\MainMenu\snap\logo.png">
+      <Filter>Assets\languages\zh-Hant-TW\MainMenu\snap</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\MainMenu\logo.png">
+      <Filter>Assets\languages\zh-Hant-TW\MainMenu</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\daily_default.png">
+      <Filter>Assets\languages\zh-Hant-TW\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\daily_disabled.png">
+      <Filter>Assets\languages\zh-Hant-TW\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\headtohead_default.png">
+      <Filter>Assets\languages\zh-Hant-TW\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\headtohead_disabled.png">
+      <Filter>Assets\languages\zh-Hant-TW\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\race_default.png">
+      <Filter>Assets\languages\zh-Hant-TW\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\race_disabled.png">
+      <Filter>Assets\languages\zh-Hant-TW\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\scoreAttack_default.png">
+      <Filter>Assets\languages\zh-Hant-TW\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\scoreAttack_disabled.png">
+      <Filter>Assets\languages\zh-Hant-TW\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\SummaryDialog\puzzlecomplete.png">
+      <Filter>Assets\languages\zh-Hant-TW\SummaryDialog</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\SummaryDialog\timeup.png">
+      <Filter>Assets\languages\zh-Hant-TW\SummaryDialog</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\SummaryDialog\buttons\nextgame.png">
+      <Filter>Assets\languages\zh-Hant-TW\SummaryDialog\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\SummaryDialog\buttons\retry.png">
+      <Filter>Assets\languages\zh-Hant-TW\SummaryDialog\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\daily_description.png">
+      <Filter>Assets\languages\en-US\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\headtohead_description.png">
+      <Filter>Assets\languages\en-US\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\race_description.png">
+      <Filter>Assets\languages\en-US\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\score_description.png">
+      <Filter>Assets\languages\en-US\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\ModeMenu\modesmenu.png">
+      <Filter>Assets\languages\en-US\ModeMenu</Filter>
+    </Image>
+    <Image Include="Assets\languages\en-US\DifficultyMenu\difficultymenu.png">
+      <Filter>Assets\languages\en-US\DifficultyMenu</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\DifficultyMenu\difficultymenu.png">
+      <Filter>Assets\languages\zh-Hant-TW\DifficultyMenu</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\daily_description.png">
+      <Filter>Assets\languages\zh-Hant-TW\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\headtohead_description.png">
+      <Filter>Assets\languages\zh-Hant-TW\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\race_description.png">
+      <Filter>Assets\languages\zh-Hant-TW\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\modesmenu.png">
+      <Filter>Assets\languages\zh-Hant-TW\ModeMenu</Filter>
+    </Image>
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\score_description.png">
+      <Filter>Assets\languages\zh-Hant-TW\ModeMenu\buttons</Filter>
+    </Image>
+    <Image Include="Assets\InGame\environmentmap_grandcanyon_512x512.dds">
+      <Filter>Assets\InGame</Filter>
+    </Image>
+    <Image Include="Assets\InGame\star_colormap_512x512.dds">
+      <Filter>Assets\InGame</Filter>
+    </Image>
+    <Image Include="Assets\InGame\star_glossmap_512x512.dds">
+      <Filter>Assets\InGame</Filter>
+    </Image>
+    <Image Include="Assets\InGame\star_normalmap_512x512.dds">
+      <Filter>Assets\InGame</Filter>
+    </Image>
+    <Image Include="Assets\InGame\colormap_512x512.dds">
+      <Filter>Assets\InGame</Filter>
+    </Image>
+    <Image Include="Assets\InGame\environmentmap_512x512.dds">
+      <Filter>Assets\InGame</Filter>
+    </Image>
+    <Image Include="Assets\InGame\glossmap_512x512.dds">
+      <Filter>Assets\InGame</Filter>
+    </Image>
+    <Image Include="Assets\InGame\normalmap_512x512.dds">
+      <Filter>Assets\InGame</Filter>
+    </Image>
+    <Image Include="Assets\Puzzles\Easy\5_normalmap.dds">
+      <Filter>Assets\Puzzles\easy</Filter>
+    </Image>
+    <Image Include="Assets\InGame\noiseL8_32x32x32.dds">
+      <Filter>Assets\InGame</Filter>
+    </Image>
+    <Image Include="Assets\InGame\ParticleSystem\circle.png">
+      <Filter>Assets\InGame\ParticleSystem</Filter>
+    </Image>
+    <Image Include="Assets\InGame\ParticleSystem\diamond.png">
+      <Filter>Assets\InGame\ParticleSystem</Filter>
+    </Image>
+    <Image Include="Assets\InGame\ParticleSystem\star.png">
+      <Filter>Assets\InGame\ParticleSystem</Filter>
+    </Image>
+    <Image Include="Assets\UI\Transition\side.png">
+      <Filter>Assets\UI\Transition</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+</Project>

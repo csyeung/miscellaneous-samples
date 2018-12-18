@@ -1,0 +1,727 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{082e9c8b-1510-4066-a825-dd8958ecb292}</ProjectGuid>
+    <RootNamespace>PicturePanic</RootNamespace>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <VCTargetsPath Condition="'$(VCTargetsPath11)' != '' and '$(VSVersion)' == '' and '$(VisualStudioVersion)' == ''">$(VCTargetsPath11)</VCTargetsPath>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <AppContainerApplication>true</AppContainerApplication>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>D:/Projects/Win8/GameFramework;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageCertificateKeyFile>PicturePanic_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>d2d1.lib; d3d11.lib; dxgi.lib; ole32.lib; windowscodecs.lib; dwrite.lib; %(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateWindowsMetadata>true</GenerateWindowsMetadata>
+      <ShowProgress Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotSet</ShowProgress>
+      <WindowsMetadataFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)GameFramework.winmd</WindowsMetadataFile>
+      <WindowsMetadataFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)GameFramework.winmd</WindowsMetadataFile>
+    </Link>
+    <ClCompile>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Image Include="Assets\InGame\colormap_512x512.dds" />
+    <Image Include="Assets\InGame\environmentmap_512x512.dds" />
+    <Image Include="Assets\InGame\environmentmap_grandcanyon_512x512.dds" />
+    <Image Include="Assets\InGame\glossmap_512x512.dds" />
+    <Image Include="Assets\InGame\noiseL8_32x32x32.dds" />
+    <Image Include="Assets\InGame\normalmap_512x512.dds" />
+    <Image Include="Assets\InGame\ParticleSystem\circle.png" />
+    <Image Include="Assets\InGame\ParticleSystem\diamond.png" />
+    <Image Include="Assets\InGame\ParticleSystem\star.png" />
+    <Image Include="Assets\InGame\star_colormap_512x512.dds" />
+    <Image Include="Assets\InGame\star_glossmap_512x512.dds" />
+    <Image Include="Assets\InGame\star_normalmap_512x512.dds" />
+    <Image Include="Assets\languages\en-US\DifficultyMenu\buttons\easy.png" />
+    <Image Include="Assets\languages\en-US\DifficultyMenu\buttons\hard.png" />
+    <Image Include="Assets\languages\en-US\DifficultyMenu\buttons\medium.png" />
+    <Image Include="Assets\languages\en-US\DifficultyMenu\difficultymenu.png" />
+    <Image Include="Assets\languages\en-US\InGame\go.png" />
+    <Image Include="Assets\languages\en-US\MainMenu\buttons\options.png" />
+    <Image Include="Assets\languages\en-US\MainMenu\buttons\options_highlight.png" />
+    <Image Include="Assets\languages\en-US\MainMenu\buttons\play.png" />
+    <Image Include="Assets\languages\en-US\MainMenu\buttons\play_highlight.png" />
+    <Image Include="Assets\languages\en-US\MainMenu\logo.png" />
+    <Image Include="Assets\languages\en-US\MainMenu\snap\logo.png" />
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\daily_default.png" />
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\daily_description.png" />
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\daily_disabled.png" />
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\headtohead_default.png" />
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\headtohead_description.png" />
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\headtohead_disabled.png" />
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\race_default.png" />
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\race_description.png" />
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\race_disabled.png" />
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\scoreAttack_default.png" />
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\scoreAttack_disabled.png" />
+    <Image Include="Assets\languages\en-US\ModeMenu\buttons\score_description.png" />
+    <Image Include="Assets\languages\en-US\ModeMenu\modesmenu.png" />
+    <Image Include="Assets\languages\en-US\SummaryDialog\buttons\nextgame.png" />
+    <Image Include="Assets\languages\en-US\SummaryDialog\buttons\retry.png" />
+    <Image Include="Assets\languages\en-US\SummaryDialog\puzzlecomplete.png" />
+    <Image Include="Assets\languages\en-US\SummaryDialog\timeup.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\DifficultyMenu\buttons\easy.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\DifficultyMenu\buttons\hard.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\DifficultyMenu\buttons\medium.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\DifficultyMenu\difficultymenu.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\InGame\go.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\MainMenu\buttons\options.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\MainMenu\buttons\options_highlight.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\MainMenu\buttons\play.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\MainMenu\buttons\play_highlight.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\MainMenu\logo.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\MainMenu\snap\logo.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\daily_default.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\daily_description.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\daily_disabled.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\headtohead_default.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\headtohead_description.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\headtohead_disabled.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\race_default.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\race_description.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\race_disabled.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\scoreAttack_default.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\scoreAttack_disabled.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\buttons\score_description.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\ModeMenu\modesmenu.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\SummaryDialog\buttons\nextgame.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\SummaryDialog\buttons\retry.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\SummaryDialog\puzzlecomplete.png" />
+    <Image Include="Assets\languages\zh-Hant-TW\SummaryDialog\timeup.png" />
+    <Image Include="Assets\Puzzles\Easy\1.jpg" />
+    <Image Include="Assets\Puzzles\Easy\2.jpg" />
+    <Image Include="Assets\Puzzles\Easy\3.jpg" />
+    <Image Include="Assets\Puzzles\Easy\4.jpg" />
+    <Image Include="Assets\Puzzles\Easy\5.jpg" />
+    <Image Include="Assets\Puzzles\Easy\5_normalmap.dds" />
+    <Image Include="Assets\Puzzles\Easy\6.jpg" />
+    <Image Include="Assets\Puzzles\Easy\7.jpg" />
+    <Image Include="Assets\Puzzles\Hard\1.jpg" />
+    <Image Include="Assets\Puzzles\Hard\2.jpg" />
+    <Image Include="Assets\Puzzles\Hard\3.jpg" />
+    <Image Include="Assets\Puzzles\Hard\4.jpg" />
+    <Image Include="Assets\Puzzles\Hard\5.jpg" />
+    <Image Include="Assets\Puzzles\Hard\6.jpg" />
+    <Image Include="Assets\Puzzles\Hard\7.jpg" />
+    <Image Include="Assets\Puzzles\Medium\1.jpg" />
+    <Image Include="Assets\Puzzles\Medium\2.jpg" />
+    <Image Include="Assets\Puzzles\Medium\3.jpg" />
+    <Image Include="Assets\Puzzles\Medium\4.jpg" />
+    <Image Include="Assets\Puzzles\Medium\5.jpg" />
+    <Image Include="Assets\Puzzles\Medium\6.jpg" />
+    <Image Include="Assets\Puzzles\Medium\7.jpg" />
+    <Image Include="Assets\Puzzles\Medium\8.jpg" />
+    <Image Include="Assets\Puzzles\Medium\9.jpg" />
+    <Image Include="Assets\StoreLogo.png" />
+    <Image Include="Assets\System\Badge.png" />
+    <Image Include="Assets\System\Logo.png" />
+    <Image Include="Assets\System\SmallLogo.png" />
+    <Image Include="Assets\System\SplashScreen.png" />
+    <Image Include="Assets\System\WideLogo.png" />
+    <Image Include="Assets\UI\Backgrounds\bg.jpg" />
+    <Image Include="Assets\UI\Backgrounds\Snap\bg_snap.jpg" />
+    <Image Include="Assets\UI\Buttons\arrow_left.png" />
+    <Image Include="Assets\UI\Buttons\arrow_left_disabled.png" />
+    <Image Include="Assets\UI\Buttons\arrow_left_highlight.png" />
+    <Image Include="Assets\UI\Buttons\arrow_right.png" />
+    <Image Include="Assets\UI\Buttons\arrow_right_disabled.png" />
+    <Image Include="Assets\UI\Buttons\arrow_right_highlight.png" />
+    <Image Include="Assets\UI\Buttons\back.png" />
+    <Image Include="Assets\UI\Buttons\back_highlight.png" />
+    <Image Include="Assets\UI\InGame\1.png" />
+    <Image Include="Assets\UI\InGame\2.png" />
+    <Image Include="Assets\UI\InGame\3.png" />
+    <Image Include="Assets\UI\SummaryDialog\buttons\facebook.png" />
+    <Image Include="Assets\UI\SummaryDialog\buttons\twitter.png" />
+    <Image Include="Assets\UI\SummaryDialog\buttons\windows_share.png" />
+    <Image Include="Assets\UI\Transition\side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\GameFramework\Camera\Camera.h" />
+    <ClInclude Include="..\..\GameFramework\Camera\FirstPersonCamera.h" />
+    <ClInclude Include="..\..\GameFramework\Camera\OrthographicCamera.h" />
+    <ClInclude Include="..\..\GameFramework\Camera\PerspectiveCamera.h" />
+    <ClInclude Include="..\..\GameFramework\DirectXBase.h" />
+    <ClInclude Include="..\..\GameFramework\Effects\FullScreenQuad.h" />
+    <ClInclude Include="..\..\GameFramework\Effects\GaussianBlurEffect.h" />
+    <ClInclude Include="..\..\GameFramework\Effects\BumpyGlossyMetalEffect.h" />
+    <ClInclude Include="..\..\GameFramework\Effects\Effect.h" />
+    <ClInclude Include="..\..\GameFramework\Effects\PostCoronaEffect.h" />
+    <ClInclude Include="..\..\GameFramework\Effects\PostEffect.h" />
+    <ClInclude Include="..\..\GameFramework\Effects\PostHaloEffect.h" />
+    <ClInclude Include="..\..\GameFramework\Effects\SamplerFactory.h" />
+    <ClInclude Include="..\..\GameFramework\GameState\FramerateState.h" />
+    <ClInclude Include="..\..\GameFramework\GameState\RenderableGameState.h" />
+    <ClInclude Include="..\..\GameFramework\GameState\GameState.h" />
+    <ClInclude Include="..\..\GameFramework\GameState\GameStateManager.h" />
+    <ClInclude Include="..\..\GameFramework\Globals\GameGlobals.h" />
+    <ClInclude Include="..\..\GameFramework\Math\Geometry.h" />
+    <ClInclude Include="..\..\GameFramework\ParticleSystem\Particle.h" />
+    <ClInclude Include="..\..\GameFramework\ParticleSystem\Particle2D.h" />
+    <ClInclude Include="..\..\GameFramework\ParticleSystem\ParticleSystem2D.h" />
+    <ClInclude Include="..\..\GameFramework\Resources\DepthStencilResource.h" />
+    <ClInclude Include="..\..\GameFramework\Resources\PixelShaderResource.h" />
+    <ClInclude Include="..\..\GameFramework\Resources\PreLoadItem.h" />
+    <ClInclude Include="..\..\GameFramework\Resources\RenderTargetResource.h" />
+    <ClInclude Include="..\..\GameFramework\Resources\Resource.h" />
+    <ClInclude Include="..\..\GameFramework\Resources\ResourceFactory.h" />
+    <ClInclude Include="..\..\GameFramework\Resources\Texture2DResource.h" />
+    <ClInclude Include="..\..\GameFramework\Resources\Texture3DResource.h" />
+    <ClInclude Include="..\..\GameFramework\Resources\TextureResource.h" />
+    <ClInclude Include="..\..\GameFramework\Resources\VertexShaderResource.h" />
+    <ClInclude Include="..\..\GameFramework\Shaders\PostCorona\include\BlurConstants.h" />
+    <ClInclude Include="..\..\GameFramework\Shaders\PostCorona\include\ConstantBuffers.h" />
+    <ClInclude Include="..\..\GameFramework\Shaders\PostCorona\include\PSCommon.h" />
+    <ClInclude Include="..\..\GameFramework\Shaders\PostCorona\include\VSCommon.h" />
+    <ClInclude Include="..\..\GameFramework\Sprites\SpriteRenderer.h" />
+    <ClInclude Include="..\..\GameFramework\Text\Overlay2D.h" />
+    <ClInclude Include="..\..\GameFramework\Timers\Timer.h" />
+    <ClInclude Include="..\..\GameFramework\UI\Background.h" />
+    <ClInclude Include="..\..\GameFramework\UI\Button.h" />
+    <ClInclude Include="..\..\GameFramework\UI\MenuScreen.h" />
+    <ClInclude Include="..\..\GameFramework\UI\PointerState.h" />
+    <ClInclude Include="..\..\GameFramework\UI\UIImage.h" />
+    <ClInclude Include="..\..\GameFramework\UI\UISceneGraphElement.h" />
+    <ClInclude Include="..\..\GameFramework\Utility\BasicLoader.h" />
+    <ClInclude Include="..\..\GameFramework\Utility\BasicMath.h" />
+    <ClInclude Include="..\..\GameFramework\Utility\BasicReaderWriter.h" />
+    <ClInclude Include="..\..\GameFramework\Utility\BasicShapes.h" />
+    <ClInclude Include="..\..\GameFramework\Utility\DDSTextureLoader.h" />
+    <ClInclude Include="..\..\GameFramework\Utility\Easing.h" />
+    <ClInclude Include="..\..\GameFramework\Utility\Exceptions.h" />
+    <ClInclude Include="..\..\GameFramework\Utility\Utility.h" />
+    <ClInclude Include="App.xaml.h">
+      <DependentUpon>App.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="DifficultyMenu.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="MainPage.xaml.h">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="ModeMenu.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="PicturePanic.h" />
+    <ClInclude Include="PuzzlePiece.h" />
+    <ClInclude Include="SampleOverlay.h" />
+    <ClInclude Include="States\BackgroundImageState.h" />
+    <ClInclude Include="States\CountdownState.h" />
+    <ClInclude Include="States\FadeTransitionState.h" />
+    <ClInclude Include="States\GameTimerState.h" />
+    <ClInclude Include="States\LoadingState.h" />
+    <ClInclude Include="States\MenuState.h" />
+    <ClInclude Include="States\PuzzleFlipTransitionState.h" />
+    <ClInclude Include="States\RaceGameState.h" />
+    <ClInclude Include=".\States\RaceSummaryState.h" />
+    <ClInclude Include="SummaryDialog.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\GameFramework\Camera\Camera.cpp" />
+    <ClCompile Include="..\..\GameFramework\Camera\FirstPersonCamera.cpp" />
+    <ClCompile Include="..\..\GameFramework\Camera\OrthographicCamera.cpp" />
+    <ClCompile Include="..\..\GameFramework\Camera\PerspectiveCamera.cpp" />
+    <ClCompile Include="..\..\GameFramework\DirectXBase.cpp" />
+    <ClCompile Include="..\..\GameFramework\Effects\GaussianBlurEffect.cpp" />
+    <ClCompile Include="..\..\GameFramework\Effects\BumpyGlossyMetalEffect.cpp" />
+    <ClCompile Include="..\..\GameFramework\Effects\Effect.cpp" />
+    <ClCompile Include="..\..\GameFramework\Effects\PostCoronaEffect.cpp" />
+    <ClCompile Include="..\..\GameFramework\Effects\PostEffect.cpp" />
+    <ClCompile Include="..\..\GameFramework\Effects\PostHaloEffect.cpp" />
+    <ClCompile Include="..\..\GameFramework\Effects\SamplerFactory.cpp" />
+    <ClCompile Include="..\..\GameFramework\Effects\FullScreenQuad.cpp" />
+    <ClCompile Include="..\..\GameFramework\GameState\FramerateState.cpp" />
+    <ClCompile Include="..\..\GameFramework\GameState\GameState.cpp" />
+    <ClCompile Include="..\..\GameFramework\GameState\GameStateManager.cpp" />
+    <ClCompile Include="..\..\GameFramework\Globals\GameGlobals.cpp" />
+    <ClCompile Include="..\..\GameFramework\Math\Geometry.cpp" />
+    <ClCompile Include="..\..\GameFramework\ParticleSystem\Particle.cpp" />
+    <ClCompile Include="..\..\GameFramework\ParticleSystem\Particle2D.cpp" />
+    <ClCompile Include="..\..\GameFramework\ParticleSystem\ParticleSystem2D.cpp" />
+    <ClCompile Include="..\..\GameFramework\Resources\DepthStencilResource.cpp" />
+    <ClCompile Include="..\..\GameFramework\Resources\PixelShaderResource.cpp" />
+    <ClCompile Include="..\..\GameFramework\Resources\RenderTargetResource.cpp" />
+    <ClCompile Include="..\..\GameFramework\Resources\ResourceFactory.cpp" />
+    <ClCompile Include="..\..\GameFramework\Resources\Texture2DResource.cpp" />
+    <ClCompile Include="..\..\GameFramework\Resources\Texture3DResource.cpp" />
+    <ClCompile Include="..\..\GameFramework\Resources\TextureResource.cpp" />
+    <ClCompile Include="..\..\GameFramework\Resources\VertexShaderResource.cpp" />
+    <ClCompile Include="..\..\GameFramework\Sprites\SpriteRenderer.cpp" />
+    <ClCompile Include="..\..\GameFramework\Text\Overlay2D.cpp" />
+    <ClCompile Include="..\..\GameFramework\Timers\Timer.cpp" />
+    <ClCompile Include="..\..\GameFramework\UI\Background.cpp" />
+    <ClCompile Include="..\..\GameFramework\UI\Button.cpp" />
+    <ClCompile Include="..\..\GameFramework\UI\MenuScreen.cpp" />
+    <ClCompile Include="..\..\GameFramework\UI\UIImage.cpp" />
+    <ClCompile Include="..\..\GameFramework\UI\UISceneGraphElement.cpp" />
+    <ClCompile Include="..\..\GameFramework\Utility\BasicLoader.cpp" />
+    <ClCompile Include="..\..\GameFramework\Utility\BasicReaderWriter.cpp" />
+    <ClCompile Include="..\..\GameFramework\Utility\BasicShapes.cpp" />
+    <ClCompile Include="..\..\GameFramework\Utility\DDSTextureLoader.cpp" />
+    <ClCompile Include="..\..\GameFramework\Utility\Easing.cpp" />
+    <ClCompile Include="..\..\GameFramework\Utility\Utility.cpp" />
+    <ClCompile Include="App.xaml.cpp">
+      <DependentUpon>App.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="DifficultyMenu.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="ModeMenu.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PicturePanic.cpp" />
+    <ClCompile Include="PuzzlePiece.cpp" />
+    <ClCompile Include="SampleOverlay.cpp" />
+    <ClCompile Include="States\BackgroundImageState.cpp" />
+    <ClCompile Include="States\CountdownState.cpp" />
+    <ClCompile Include="States\FadeTransitionState.cpp" />
+    <ClCompile Include="States\GameTimerState.cpp" />
+    <ClCompile Include="States\LoadingState.cpp" />
+    <ClCompile Include="States\MenuState.cpp" />
+    <ClCompile Include="States\PuzzleFlipTransitionState.cpp" />
+    <ClCompile Include="States\RaceGameState.cpp" />
+    <ClCompile Include=".\States\RaceSummaryState.cpp" />
+    <ClCompile Include="SummaryDialog.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="..\..\GameFramework\Shaders\BumpyGlossyMetal\include\BumpyGlossyMetal.hlsli" />
+    <None Include="..\..\GameFramework\Shaders\BumpyGlossyMetal\include\ConstantBuffers.hlsli" />
+    <None Include="..\..\GameFramework\Shaders\GaussianBlur\include\BlurWeights.hlsli" />
+    <None Include="..\..\GameFramework\Shaders\GaussianBlur\include\ConstantBuffers.hlsli" />
+    <None Include="..\..\GameFramework\Shaders\GaussianBlur\include\GaussianBlur.hlsli" />
+    <None Include="..\..\GameFramework\Shaders\include\PositionColor.hlsli" />
+    <None Include="..\..\GameFramework\Shaders\include\TexturedQuad.hlsli" />
+    <None Include="PicturePanic_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\GameFramework\Shaders\BumpyGlossyMetal\PS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PS</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PS</EntryPointName>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/BumpyGlossyMetal/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/BumpyGlossyMetal/%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\BumpyGlossyMetal\PS_FlatTextured.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PS_FlatTextured</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PS_FlatTextured</EntryPointName>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/BumpyGlossyMetal/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/BumpyGlossyMetal/%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\BumpyGlossyMetal\VS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">VS</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">VS</EntryPointName>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/BumpyGlossyMetal/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/BumpyGlossyMetal/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\ColorQuadPS.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ColorQuadPS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ColorQuadPS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\PS_CopyFilter.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PS_CopyFilter</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PS_CopyFilter</EntryPointName>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\PS_Horizontal9Tap.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PS_Horizontal9Tap</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PS_Horizontal9Tap</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\PS_Horizontal9TapGlow.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PS_Horizontal9TapGlow</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PS_Horizontal9TapGlow</EntryPointName>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\PS_Horizontal9TapNoiseGlow.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PS_Horizontal9TapNoiseGlow</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PS_Horizontal9TapNoiseGlow</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\PS_Vertical9Tap.hlsl">
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PS_Vertical9Tap</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PS_Vertical9Tap</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\PS_Vertical9TapGlow.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PS_Vertical9TapGlow</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PS_Vertical9TapGlow</EntryPointName>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\PS_Vertical9TapNoiseGlow.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PS_Vertical9TapNoiseGlow</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PS_Vertical9TapNoiseGlow</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\VS_CopyFilter.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">VS_CopyFilter</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">VS_CopyFilter</EntryPointName>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\VS_Horizontal9Tap.hlsl">
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">VS_Horizontal9Tap</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">VS_Horizontal9Tap</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\GaussianBlur\VS_Vertical9Tap.hlsl">
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">VS_Vertical9Tap</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">VS_Vertical9Tap</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/GaussianBlur/%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\PostCorona\PS_Flat.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PS_Flat</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PS_Flat</EntryPointName>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/PostCorona/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/PostCorona/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\PostCorona\PS_Glow.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/PostCorona/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/PostCorona/%(Filename).cso</ObjectFileOutput>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PS_Glow</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PS_Glow</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\PostCorona\VS_QuadHorizontal9Tap.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/PostCorona/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/PostCorona/%(Filename).cso</ObjectFileOutput>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">VS_QuadHorizontal9Tap</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">VS_QuadHorizontal9Tap</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\PostCorona\VS_QuadTransform.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/PostCorona/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/PostCorona/%(Filename).cso</ObjectFileOutput>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">VS_QuadTransform</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">VS_QuadTransform</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\PostCorona\VS_QuadVertical9Tap.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/PostCorona/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/PostCorona/%(Filename).cso</ObjectFileOutput>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">VS_QuadVertical9Tap</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">VS_QuadVertical9Tap</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\PS_PositionColor.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PS_PositionColor</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PS_PositionColor</EntryPointName>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\QuadPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">QuadPS</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">QuadPS</EntryPointName>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\QuadVS.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">QuadVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">QuadVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\RedPS.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RedPS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RedPS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\SpriteInstancedVS.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SpriteInstancedVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SpriteInstancedVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0_level_9_3</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0_level_9_3</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\SpritePS.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SpritePS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SpritePS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0_level_9_3</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0_level_9_3</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\SpriteTunnelPS.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SpriteTunnelPS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SpriteTunnelPS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\SpriteVS.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SpriteVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SpriteVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0_level_9_3</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0_level_9_3</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="..\..\GameFramework\Shaders\VS_PositionColor.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">VS_PositionColor</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">VS_PositionColor</EntryPointName>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)/Shaders/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="MSAdvertisingXaml, Version=6.1" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
